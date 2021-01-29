@@ -54,7 +54,7 @@ export class Post
             myList.appendChild(copy);
             this.updatePostsLock(author_id, author_name, postId, likesId, textContent);
             this.updateLikesLock(author_id, author_name, likesId);
-
+            
         }
            
         
