@@ -1,5 +1,5 @@
 import {accounts} from "./account.js"
-import {Post} from "./AddPost.js"
+import {Post} from "./addPost.js"
 
 
 var requestOptions = {
@@ -99,6 +99,8 @@ class Oldbook
 let button = document.getElementById("type-post");
 user.validation();
 let post = new Post(user.id, user.name, user.pass);
+
+
 button.addEventListener("click", function(){
     post.creatorPostElements(user.id, user.name, user.pass );
     console.log(post.postsLock);
