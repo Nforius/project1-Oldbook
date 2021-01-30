@@ -15,7 +15,7 @@ body
 header
 {
 
-    width: 99%;
+    width: 100%;
     background-color: rgb(94, 147, 226);
     position: fixed;
     display: flex;
