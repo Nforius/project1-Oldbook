@@ -126,7 +126,10 @@ document.querySelector(".c-c-option").addEventListener('click', function(e)
     post.postsLock.forEach(consoleItem);
 })
 
-
+function consoleItem(item)
+{
+    console.log(item);
+}
 
 let openPictureChangerBttn = document.querySelector(".header-menu-option");
 let closePictureChangerBttn = document.getElementById("close-profile-editor");
