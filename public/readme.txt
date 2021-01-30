@@ -1,1 +1,0 @@
-Aby strona działała poprawnie, należy ją włączyć na local serwerze (w przypadku vsc - live server)
